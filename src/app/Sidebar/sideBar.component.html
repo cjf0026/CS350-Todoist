@@ -15,29 +15,35 @@
     </button>
   </li>
   <li class="nav-item">
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjects" aria-expanded="false" aria-controls="collapseProjects">
-      Projects
-    </button>
-    <div class="collapse" id="collapseProjects">
-      <ul class="nav flex-column bg-dark">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Example Project 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Example Project 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Archived Projects</a>
-        </li>
+    <div class="dropdown">
+      <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Projects +
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Welcome 👋</a></li>
+        <li><a class="dropdown-item" href="#">Try Boards</a></li>
       </ul>
     </div>
   </li>
   <li class="nav-item">
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLabels" aria-expanded="false" aria-controls="collapseLabels">
-      Labels
-    </button>
-    <div class="collapse" id="collapseLabels">
-      <p class="text-white">Your list of labels will show up here.</p>
+    <div class="dropdown">
+      <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Labels +
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><p class="dropdown-item" href="#">Your list of labels will show up here.</p></li>
+      </ul>
+    </div>
+  </li>
+  <li class="nav-item">
+    <div class="dropdown">
+      <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Fliters +
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Assigned to me</a></li>
+        <li><a class="dropdown-item" href="#">Priority 1</a></li>
+      </ul>
     </div>
   </li>
 </ul>
