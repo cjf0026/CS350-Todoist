@@ -6,6 +6,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { LayoutComponent } from './layout/layout.component';
+import { AppRoutingModule } from './app-routing.module';
+import { InboxComponent } from './inbox/inbox.component';
+import { TodayComponent } from './today/today.component';
+import { UpcomingComponent } from './upcoming/upcoming.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { TryBoardsComponent } from './try-boards/try-boards.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +19,16 @@ import { LayoutComponent } from './layout/layout.component';
     NavbarComponent,
     SidebarComponent,
     TaskListComponent,
-    LayoutComponent
+    LayoutComponent,
+    InboxComponent,
+    TodayComponent,
+    UpcomingComponent,
+    WelcomeComponent,
+    TryBoardsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
